@@ -68,7 +68,7 @@ function generateCircles(count, screen) {
 
     const circleCount = 70;
     let circles = generateCircles(circleCount, app.screen);
-    initializeAnimations(circles, screen);
+    initializeAnimations(circles, app.screen);
     let state = {
         app: app,
         circles: circles,
