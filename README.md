@@ -1,2 +1,2 @@
 # sacro
-basic PixiJS and anime.js random walk / hello world
+basic PixiJS and anime.js random walk
