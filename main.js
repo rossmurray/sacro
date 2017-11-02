@@ -16,8 +16,9 @@ function animateCirclePosition(circle, screen) {
         targets: circle,
         x: randomPosition(screen.width, circle.r),
         y: randomPosition(screen.height, circle.r),
+        delay: Math.floor(Math.random() * 1000),
         easing: 'easeOutSine',
-        duration: Math.floor(Math.random() * 500 + 1500),
+        duration: Math.floor(Math.random() * 1000 + 1500),
         loop: false,
         autoplay: false,
     });
